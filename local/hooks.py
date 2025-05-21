@@ -27,6 +27,10 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/local/css/local.css"
 # app_include_js = "/assets/local/js/local.js"
+# app_include_js = [
+#     "/assets/local/js/call_popup/call_popup.js"
+# ]
+app_include_js = "/assets/local/js/call_popup.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/local/css/local.css"
@@ -177,6 +181,9 @@ app_license = "mit"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "local.event.get_events"
 # }
+# override_whitelisted_methods = {
+#     "erpnext.telephony.doctype.call_log.call_log.show_call_popup": "local.call_log.show_call_popup"
+# }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
@@ -242,3 +249,6 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    'Custom Field'
+]
