@@ -249,6 +249,6 @@ app_include_js = "/assets/local/js/call_popup.js"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
-fixtures = [
-    'Custom Field'
-]
+# fixtures = [
+#     'Custom Field'
+# ]
